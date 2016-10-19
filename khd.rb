@@ -20,7 +20,7 @@ class Khd < Formula
       <string>#{plist_name}</string>
       <key>ProgramArguments</key>
       <array>
-      <string>/usr/local/bin/khd</string>
+      <string>#{bin}/khd</string>
       </array>
       <key>KeepAlive</key>
       <true/>
@@ -52,6 +52,6 @@ class Khd < Formula
   end
 
   test do
-    system "/usr/local/bin/khd", "--version"
+    system "#{bin}/khd", "--version"
   end
 end
