@@ -22,6 +22,11 @@ class Khd < Formula
       <array>
       <string>#{bin}/khd</string>
       </array>
+      <key>EnvironmentVariables</key>
+      <dict>
+        <key>PATH</key>
+        <string>#{bin}</string>
+      </dict>
       <key>KeepAlive</key>
       <true/>
       <key>StandardOutPath</key>
